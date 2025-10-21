@@ -38,6 +38,6 @@ python manage.py runserver
 ```
 ## Capturas
 
-![Captura 1](./img/captura-1.png)
-![Captura 1](./img/captura-2.png)
-![Captura 1](./img/captura-3.png)
+<img src="./img/captura-1.png" alt="Captura 1" width="600" />
+<img src="./img/captura-2.png" alt="Captura 2" width="600" />
+<img src="./img/captura-3.png" alt="Captura 3" width="600" />

@@ -1,0 +1,29 @@
+
+{% extends "base.html" %} 
+
+{% load static %} 
+
+{% block content %}
+<!-- Listado de productos - Panadería -->
+<section id="productos-panaderia" aria-labelledby="titulo-panaderia">
+  <h2 id="titulo-panaderia">Nuestros productos</h2>
+  <ul class="productos lista-panaderia" aria-label="Productos de panadería">
+    <li class="producto" data-price="1.50">
+      <strong>Barra de pan</strong> — 300 gr <span class="precio">€1.50</span>
+      <p class="descripcion">Corteza crujiente, miga tierna.</p>
+    </li>
+    <li class="producto" data-price="3.00">
+      <strong>Pan integral</strong> — 500 gr <span class="precio">€3.00</span>
+      <p class="descripcion">Con harina integral y semillas.</p>
+    </li>
+    <li class="producto" data-price="2.00">
+      <strong>Pan ecológico</strong> — 400 gr <span class="precio">€2.00</span>
+      <p class="descripcion">Sabor natural, con harina ecológica.</p>
+    </li>
+    <li class="producto" data-price="3.00">
+      <strong>Baguette rústica</strong> — 300 gr <span class="precio">€3.00</span>
+      <p class="descripcion">Amasado tradicional, fermentación lenta.</p>
+    </li>
+  </ul>
+</section>
+{% endblock %}

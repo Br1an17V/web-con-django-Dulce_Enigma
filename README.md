@@ -34,3 +34,10 @@ pip install "Django>=4.2,<5"
 # 4) Migraciones y arranque
 python manage.py migrate
 python manage.py runserver
+
+```
+## Capturas
+
+![Captura 1](./img/captura-1.png)
+![Captura 1](./img/captura-2.png)
+![Captura 1](./img/captura-3.png)
